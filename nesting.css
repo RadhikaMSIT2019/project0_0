@@ -8,6 +8,16 @@ div ul {
   color: green;
 }
 
+.button-base, .menu-button {
+  radius: 2px;
+  margin: 5px;
+}
+
+.menu-button {
+  background-color: blue;
+  color: white;
+}
+
 .message, .warning {
   font-size: 20px;
   border: 1px solid blue;
