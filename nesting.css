@@ -8,4 +8,17 @@ div ul {
   color: green;
 }
 
+.message, .warning {
+  font-size: 20px;
+  border: 1px solid blue;
+}
+
+.warning {
+  color: yellow;
+}
+
+.error {
+  color: red;
+}
+
 /*# sourceMappingURL=nesting.css.map */

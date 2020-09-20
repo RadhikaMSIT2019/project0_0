@@ -10,6 +10,16 @@ div{
   }
 
 }
+.button-base {
+   radius: 2px;
+   margin: 5px;
+}
+
+.menu-button {
+   @extend .button-base;
+   background-color: blue;
+   color: white;
+}
 .message{
   font-size:20px;
   border:1px solid blue;
