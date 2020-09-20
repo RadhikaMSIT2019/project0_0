@@ -10,3 +10,15 @@ div{
   }
 
 }
+.message{
+  font-size:20px;
+  border:1px solid blue;
+}
+.warning{
+  @extend.message;
+  color:yellow;
+}
+.error{
+  @extend.error;
+  color:red;
+}
