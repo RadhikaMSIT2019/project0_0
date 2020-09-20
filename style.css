@@ -11,11 +11,32 @@
     padding: 40px;
     font-size: 20px;
 }
-.ol li
+.b{
+  font-size:20px;
+}
+/* .ol li
 {
   color red;
 }
 .ai
 {
+  text-align:center;
+} */
+.grid{
+  background-color: green;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 10px;
+  /* grid-column-gap----space between individual columns */
+  grid-row-gap: 10px;
+  /* row -gap-----more space inbetween rows */
+  /* grid-template-columns: 200px 200px auto; only last cell changes according to size of screen */
+   grid-template-columns:auto auto auto auto;
+    /* all cells change according to screen size  */
+}
+.grid-item{
+  background-color:white;
+  font-size:20px;
+  padding:20px;
   text-align:center;
 }
