@@ -1,11 +1,19 @@
 {
   "name": "ex2webpage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Based on html sass and bootstrap",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Radhika",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadhikaMSIT2019/project0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RadhikaMSIT2019/project0/issues"
+  },
+  "homepage": "https://github.com/RadhikaMSIT2019/project0#readme"
 }
