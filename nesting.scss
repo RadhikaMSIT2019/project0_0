@@ -1,6 +1,6 @@
 div{
   font-size:18px;
-
+//SCSS nesting
   p{
     color:blue;
   }
@@ -14,7 +14,7 @@ div{
    radius: 2px;
    margin: 5px;
 }
-
+//SCSS inheritance--@extend
 .menu-button {
    @extend .button-base;
    background-color: blue;
@@ -25,6 +25,7 @@ div{
   height: 50px;
   background:lightpink;
 }
+//SCSS inheritance--@extend
 .success{
   @extend.message;
   background:green;
